@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Hub - Next-Gen Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              display: ['Syne', 'sans-serif'],
+              body: ['DM Sans', 'sans-serif'],
+              code: ['Fira Code', 'monospace'],
+            },
+            colors: {
+              accent: {
+                blue: '#3B82F6',
+                purple: '#8B5CF6',
+                pink: '#EC4899',
+                orange: '#F97316',
+                green: '#10B981',
+                cyan: '#06B6D4',
+                amber: '#F59E0B',
+              },
+              bg: {
+                primary: '#E8EDF5',
+                secondary: '#F5F7FA',
+                'primary-dark': '#0F1117',
+                'secondary-dark': '#1A1D29',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Neumorphic Shadows - Light */
+      .shadow-neu-light { box-shadow: 8px 8px 16px rgba(174, 184, 204, 0.4), -8px -8px 16px rgba(255, 255, 255, 0.9); }
+      .shadow-neu-inset { box-shadow: inset 6px 6px 12px rgba(174, 184, 204, 0.4), inset -6px -6px 12px rgba(255, 255, 255, 0.9); }
+      .shadow-raised { box-shadow: 12px 12px 24px rgba(174, 184, 204, 0.5), -12px -12px 24px rgba(255, 255, 255, 1); }
+      
+      /* Neumorphic Shadows - Dark */
+      .dark .shadow-neu-light { box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.4), -8px -8px 16px rgba(45, 49, 66, 0.5); }
+      .dark .shadow-neu-inset { box-shadow: inset 6px 6px 12px rgba(0, 0, 0, 0.4), inset -6px -6px 12px rgba(45, 49, 66, 0.5); }
+      .dark .shadow-raised { box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.5), -12px -12px 24px rgba(45, 49, 66, 0.6); }
+
+      .gradient-text {
+        background: linear-gradient(135deg, #3B82F6, #8B5CF6, #EC4899);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      
+      .ease-bounce { transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+      
+      body {
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      /* Scrollbar */
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+      .dark ::-webkit-scrollbar-thumb { background: #334155; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-bg-primary text-slate-800 dark:bg-bg-primary-dark dark:text-slate-100 font-body">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
