@@ -5,7 +5,7 @@ A high-performance, neomorphic AI platform designed for creators, developers, an
 
 ## 🚀 Core Features
 
-- **Intelligence Assistant**: A context-aware chatbot powered by **Google Gemini 3.0** and Qwen, featuring real-time streaming responses and elegant conversation management.
+- **Intelligence Assistant**: A context-aware chatbot powered by **Google Gemini 3.0**, featuring real-time streaming responses and elegant conversation management.
 - **Vision Studio**: Advanced text-to-image generation engine supporting multiple aspect ratios and high-fidelity neural rendering.
 - **The Gallery**: A cinematic showcase of AI-generated motion, featuring high-definition video previews and fluid UI transitions.
 - **Neomorphic Design**: A cutting-edge "soft UI" aesthetic that adapts seamlessly to both Light and Dark modes.
@@ -14,7 +14,7 @@ A high-performance, neomorphic AI platform designed for creators, developers, an
 
 - **Frontend**: React (v19), TypeScript, Tailwind CSS
 - **Icons**: Lucide React
-- **AI Integration**: `@google/genai` (Gemini API), OpenRouter API, Fal.ai, Pexels API
+- **AI Integration**: `@google/genai` (Gemini API), Fal.ai, Pexels API
 - **State Management**: React Hooks + LocalStorage Persistence
 - **Styling**: Custom Neomorphic Utility Classes
 
